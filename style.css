@@ -1,0 +1,118 @@
+html{
+
+    padding: 0 px;
+    margin: 0 px;
+    }
+    /* *************** Start Nav Bar ************** */
+    header{
+    width: 100%;
+    height: 100px;
+    background-color: #b9831e;
+    }
+    .nav {
+    width: 70%;
+    float: left;
+    height: 100px;
+    background-color:#b9831e;
+    }
+    .name {
+    width: 30%;
+    float: right;
+    height: 100px;
+    background-color:#b9831e;
+    }
+    .nav ul li {
+    display: inline-block;
+    list-style: none;
+    }
+    .nav ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bolder;
+    font-family: cursive;
+    font-style: italic;
+    margin: 13px;
+    padding: 13px;
+    background-color: black;
+    color: white;
+    line-height: 70px;
+    animation-name: cofe;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    }
+    .header1 a{
+    float: right;
+    color: rgb(82, 70, 70);
+    margin-top: 10px;
+    margin-right: 30px;
+    text-indent: 50px;
+    font-size: 22px;
+    text-decoration: none;
+    }
+    .nam{
+       color:#000000;
+        font-size: 20px;
+        font-style: bold;
+        font-style: italic;
+        font-family: cursive;  
+    }
+    .header2 img{
+    width: 80px;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    height: 80px;
+    float: right;
+    border-radius: 50%;
+    }
+    /*********Start Anmition ************/
+    @keyframes cofe{
+        10%{
+        background-color: rgb(255, 145, 0);
+        color: rgb(167, 163, 163);
+        }
+        30%{
+        background-color: rgba(226, 43, 171, 0.253);
+        color: rgb(228, 194, 199);
+        border-radius: 20px;
+        }
+        80%{
+        background-color: rgb(78, 19, 8);
+        color:#b9af1e;
+        border-radius: 40px;
+        }
+        }
+    /*********Finish Anmition ************/
+ 
+    /* *************** Finish Nav Bar ************** */
+    /* Start Background Video */
+    .bgvideo{
+    width: 100%;
+    height: 900px;
+    }
+    .bgvideo .title{
+    position: absolute;
+    text-align: center;
+    margin-top: 20%;
+    }
+    .bgvideo .title p{
+    font-size: 30px;
+    font-weight: bolder;
+    color: #f2f2ff;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    }
+    .bgvideo .title a{
+    text-decoration: none;
+    padding: 20px 40px;
+    color: #f2f2ff;
+    letter-spacing: 4px;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: fantasy;
+    }
+    .bgvideo .title a:hover{
+    background-color: #b9831e;
+    color:#ffffff;
+    }
